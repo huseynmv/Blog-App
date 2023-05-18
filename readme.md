@@ -24,16 +24,16 @@ A mobile application built with React Native that serves as a blog app. The app 
   ````bash
   cd blog-app-new ```
 
-  ````
+  
 
 - Install the dependencies:
 
   ````bash
   npm install ```
 
-  ````
+  
 
 - Run the app on a connected device or emulator:
   ````bash
   npm run android ```
-  ````
+  
