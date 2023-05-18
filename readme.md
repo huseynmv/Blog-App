@@ -21,7 +21,7 @@ A mobile application built with React Native that serves as a blog app. The app 
 
 - Clone the repository:
 
-  ````bash
+  ```bash
   cd blog-app-new 
   ```
 
@@ -29,14 +29,14 @@ A mobile application built with React Native that serves as a blog app. The app 
 
 - Install the dependencies:
 
-  ````bash
+  ```bash
   npm install 
   ```
 
   
 
 - Run the app on a connected device or emulator:
-  ````bash
+  ```bash
   npm run android
   ```
   
