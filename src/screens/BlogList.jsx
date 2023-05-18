@@ -21,23 +21,6 @@ const BlogList = ({navigation}) => {
     setpage(page + 1);
   }, []);
 
-  const renderFooter = () => {
-    return (
-      <View style={styles.footer}>
-        <TouchableOpacity
-          activeOpacity={0.9}
-          onPress={getData}
-          //On Click of button load more data
-          style={styles.loadMoreBtn}>
-          <Text style={styles.btnText}>Load More</Text>
-          {loading ? (
-            <ActivityIndicator color="white" style={{marginLeft: 8}} />
-          ) : null}
-        </TouchableOpacity>
-      </View>
-    );
-  };
-
   return (
     <View style={{backgroundColor: '#f5f5f5'}}>
       <FlatList
